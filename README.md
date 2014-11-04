@@ -6,6 +6,5 @@ To compile the assignments, you will need the .jar files (stdlib.jar and algs4.j
 Week 1: WordNet
 ---------------
 
-[WordNet](http://wordnet.princeton.edu/) is a semantic lexicon for the English language that is used extensively by computational linguists and cognitive scientists; for example, it was a key component in IBM's [Watson](http://en.wikipedia.org/wiki/Watson_(computer)). WordNet groups words into sets of synonyms called synsets and describes semantic relationships between them. One such relationship is the is-a relationship, which connects a hyponym (more specific synset) to a hypernym (more general synset). For example, a plant organ is a hypernym of carrot and plant organ is a hypernym of plant root.
-
-See [assignment specification](http://coursera.cs.princeton.edu/algs4/assignments/wordnet.html).
+[WordNet](http://wordnet.princeton.edu/) is a component used to represent relationships between groups of synonyms. With WordNet, one can compute the distance between words or identify an outcast in a set of words, among others things. As the underlying data structure is a graph, some classic graph algorithms are used in the assignment.
+For more information see the [assignment specification](http://coursera.cs.princeton.edu/algs4/assignments/wordnet.html).
